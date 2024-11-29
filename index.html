@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot for FAQs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7514a30f9.js" crossorigin="anonymous"></script>
+</head>
+<body class="cen">
+    <div class="sideBar cen">
+        <div class="topHeader cen">
+            <div class="sideHeader cen">
+                <h2>FAQ Chatbot</h2>
+                <div class="iconList cen">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="hiscont cen">
+                <h5>History</h5>
+                <div class="hisList cen">
+                    <p>Questions on Forgot Passw..</p>
+                    <div class="iconList cen">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="bottomHeader">
+            <div class="BHlist cen">
+                <div class="pro cen">ME</div>
+                <h3>User</h3>
+            </div>
+            <div class="BHlist cen">
+                <i class="fa-solid fa-gear"></i>
+                <p>Settings</p>
+            </div>
+            <div class="BHlist cen">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>LogOut</p>
+            </div>
+        </div>
+    </div>
+    <div class="chat-container cen">
+        <h2>What can I help with?</h2>
+        <div class="response cen" id="chatResponse">
+            <!-- <div class="resMe cen">
+                <div class="resValue">Lorem ipsum dolor sit.</div>
+                <div class="pro cen">ME</div>
+            </div>
+            <div class="resBot cen">
+                <div class="pro cen">BO</div>
+                <div class="resValue">Lorem, ipsum.</div>
+            </div> -->
+        </div>
+        <div class="textcont">
+            <input type="text" id="userQuery" placeholder="Type your question..." />
+            <button onclick="askChatbot()"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

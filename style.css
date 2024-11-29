@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background: #000000;
+    justify-content: space-between;
+}
+
+.sideBar{
+    color: #fff;
+    background: #2b2b2b;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100vh;
+    width: 20em;
+    padding: 1em;
+    gap: 2em;
+}
+.topHeader{
+    width: 100%;
+    gap: 2em;
+    flex-direction: column;
+}
+.bottomHeader{
+    width: 100%;
+}
+.BHlist{
+    width: 100%;
+    padding: .5em 0;
+    /* background: #000; */
+    justify-content: start;
+    gap: 1em;
+}
+.hiscont{
+    flex-direction: column;
+    align-items: start;
+    gap: .5em;
+    width: 100%;
+}
+.sideHeader, .hisList{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hisList{
+    background: #464545;
+    padding: 0.5em;
+    border-radius: .5em;
+}
+
+
+.chat-container {
+    /* background: #fff; */
+    color: #ffffff;
+    width: calc(100vw - 20em);
+    text-align: center;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.response {
+    margin-top: 20px;
+    height: 70vh;
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow-y: auto;
+}
+
+.resBot {
+    align-self: flex-start; 
+}
+
+.resMe {
+    align-self: flex-end;
+}
+    
+.resBot,.resMe{
+    padding: 1em 0;
+    max-width: 80%; 
+    gap: 0.5em;
+}
+.textcont input{
+    width: 50em;
+    font-size: 1em;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff
+}
+.textcont button:hover{
+    background: #2b2b2b;
+}
+.textcont button{
+    color: #fff;
+    background: transparent;
+    border: none;
+    padding: .7em;
+    cursor: pointer;
+    border-radius: .5em;
+}
+.textcont{
+    background: #464545;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: 1em;
+}
+.pro{
+    width: 2.5em;
+    aspect-ratio: 4/4;
+    border-radius: 2em;
+    background: #f3ae00;
+}
+.resBot .pro{
+    background: #00a6f3;
+}
+.iconList{
+    gap: .7em;
+    font-size: 1em;
+}
